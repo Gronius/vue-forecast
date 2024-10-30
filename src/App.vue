@@ -2,8 +2,8 @@
   <div class="app">
     <div class="header container h-100 p-5">
       <h1 class="mb-5">{{ title }}</h1>
-      <div class="d-flex justify-content-center h-100">
-        <div class="searchbar w-25 mx-5">
+      <div class="d-flex flex-column flex-md-row justify-content-center align-items-center  h-100">
+        <div class="searchbar mx-3  w-100 w-md-50">
           <input
             type="text"
             class="input form-control text-white border-0 bg-transparent"
@@ -14,7 +14,7 @@
             <option v-for="(city, i) in dataList" :value="city" :key="i" />
           </datalist>
         </div>
-        <button class="btn btn-search btn-primary" @click="searchWeather">
+        <button class="btn btn-search btn-primary mt-2 mt-md-0" @click="searchWeather">
           Search <i class="fas fa-search"></i>
         </button>
       </div>
