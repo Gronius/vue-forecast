@@ -3,7 +3,7 @@
     <div class="header container h-100 p-5">
       <h1 class="mb-5">{{ title }}</h1>
       <div class="d-flex flex-column flex-md-row justify-content-center align-items-center  h-100">
-        <div class="searchbar mx-3  w-100 w-md-50">
+        <div class="searchbar mx-3  w-50 w-md-50">
           <input
             type="text"
             class="input form-control text-white border-0 bg-transparent"
