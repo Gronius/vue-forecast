@@ -1,7 +1,7 @@
 body {
   background-image: url(../img/weather24.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: left;
   height: 100vh;
 }
 
