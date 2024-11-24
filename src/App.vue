@@ -8,7 +8,7 @@
             type="text"
             class="input form-control text-white border-0 bg-transparent"
             v-model="city"
-            placeholder="City name"
+            placeholder="City"
           />
           <datalist class="searchbox" id="list">
             <option v-for="(city, i) in dataList" :value="city" :key="i" />
